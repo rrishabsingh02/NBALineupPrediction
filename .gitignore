@@ -9,7 +9,7 @@ __pycache__/
 *.pyd
 
 # Ignore virtual environment
-nba_lineup/  # Virtual environment folder
+*/nba_lineup/  # Virtual environment folder
 env/
 venv/
 
