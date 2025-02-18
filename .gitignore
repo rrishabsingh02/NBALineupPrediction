@@ -1,0 +1,48 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+nba_lineup/  # Virtual environment folder
+env/
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# Ignore dataset files (CSV, JSON, pickle, etc.)
+data/*.csv
+data/*.json
+data/*.pkl
+data/*.xlsx
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore model artifacts
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+
+# Ignore output files
+*.out
+*.bak
+
+# Ignore Git and VS Code related files
+.vscode/
+.git/
+.idea/
+
+# Ignore dependency lock files (optional, if you don’t want to push them)
+Pipfile.lock
+poetry.lock
+
